@@ -1,0 +1,35 @@
+package com.example.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class TollUsage {
+
+	@Id
+	private String id;
+
+	private String stationId;
+
+	private String licensePlate;
+
+	private String timeStamp;
+
+	public TollUsage() {
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @param id
+	 * @param stationId
+	 * @param licensePlate
+	 * @param timeStamp
+	 */
+	public TollUsage(String id, String stationId, String licensePlate, String timeStamp) {
+		this.id = id;
+		this.stationId = stationId;
+		this.licensePlate = licensePlate;
+		this.timeStamp = timeStamp;
+	}
+
+}

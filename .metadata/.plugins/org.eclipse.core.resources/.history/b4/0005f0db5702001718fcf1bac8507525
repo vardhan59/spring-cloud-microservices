@@ -1,0 +1,17 @@
+package com.example.model;
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class TollUsage {
+
+	@Id
+	private String id;
+
+	private String stationId;
+	
+	private String licensePlate;
+	
+	private String timeStamp;
+}

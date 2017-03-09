@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.example.model&apos; to &apos;springcloud-tollusage-clientms/src/main/java/com.example&apos;&#x0D;&#x0A;- Original project: &apos;springcloud-orderms&apos;&#x0D;&#x0A;- Destination element: &apos;springcloud-tollusage-clientms/src/main/java/com.example&apos;&#x0D;&#x0A;- Original element: &apos;springcloud-orderms/src/main/java/com.example.model&apos;" description="Copy package" destination="=springcloud-tollusage-clientms/src\/main\/java&lt;com.example" element1="/src\/main\/java&lt;com.example.model" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1488879236133" version="1.0"/>
+</session>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1"/>
+<title>Html Rendered Using ThymLeaf is a templating Engine</title>
+</head>
+<body>
+<h1>Rate For Toll Booth</h1>
+<p th:text=""/>
+</body>
+</html>

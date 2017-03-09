@@ -1,0 +1,11 @@
+package com.example.resr;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyResource {
+
+	public String greet(){
+		return "Hello "+ new Date();
+	}
+}
