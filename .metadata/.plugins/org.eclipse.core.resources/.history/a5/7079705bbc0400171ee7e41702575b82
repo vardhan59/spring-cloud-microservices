@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>springcloud-secureduims</artifactId>
+	<artifactId>springcloud-securedui</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springcloud-securedui</name>
+	<name>springcloud-tollusage-securedui</name>
 	<description>Demo project for Spring cloud ms</description>
 
 	<parent>
